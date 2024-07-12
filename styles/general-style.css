@@ -1,5 +1,7 @@
-
+/* font link */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* boostrap cdn link */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 *{
 margin: 50 0 0 0;
@@ -18,7 +20,7 @@ body{
   color: var(--primary-color);
 }
 
-nav, #why-webd, #my-inspiration, #my-current-target, #my-next-target, #need-support{
+nav, #why-webd, #my-inspiration, #my-current-target, #my-next-target, #need-support, #footer{
     margin: 0px 150px;
 }
 

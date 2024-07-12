@@ -17,6 +17,11 @@ h4{
     font-weight: 700;
 }
 
+h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
 p{
     font-size: 16px;
     opacity: 0.7;
@@ -50,6 +55,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 nav h3{
@@ -70,7 +76,6 @@ nav button{
 
 .banner-area{
     background-image: url(../assets/Hero-bg.png);
-    margin-top: 20px;
     text-align: center;
 }
 
@@ -78,12 +83,13 @@ nav button{
     padding-top: 20px;
 }
 
+
 h1{
     font-size: 48px;
     font-weight: 800;
 }
 
-.banner-area button{
+.banner-area a{
     padding: 18px 26px;
     background-color: var(--primary-color);
     color: white;
@@ -92,6 +98,15 @@ h1{
     border-radius: 8px;
     margin-top: 20px;
     margin-bottom: 40px;
+    text-decoration: none;
+}
+
+.banner-area p{
+    padding-bottom: 30px;
+}
+
+.banner-btn{
+    padding-bottom: 60px;
 }
 
 #hero{
@@ -228,9 +243,8 @@ iframe{
     background-position: center;
     background-size: cover;
     background-image: url(../assets/handshake.jpg);
-    
-    
 }
+
 
 input[type="text"]{
     width: 550px;
@@ -259,3 +273,38 @@ input[value="Submit"]{
     color: var(--primary-color);  
     font-weight: 600;
 }
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons{
+    font-size: 24px;
+}
+
+.bi-facebook{
+    color: #3b5998;
+}
+
+.bi-linkedin{
+color: #0077B5
+}
+
+.bi-instagram {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+
+
+
+
+
+
+
+
