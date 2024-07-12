@@ -185,6 +185,8 @@ iframe{
     line-height: 0px;
 }
 
+
+/* My Next Target */
 .technology{
     display: flex;
     justify-content: space-between;
@@ -211,4 +213,49 @@ iframe{
 
 .width-80{
     width: 80%;
+}
+
+
+/* Styles of Need Support Section */
+.btn-area{
+    text-align: center;
+}
+
+#need-support{
+    padding: 48px 64px;
+    color: white;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/handshake.jpg);
+    
+    
+}
+
+input[type="text"]{
+    width: 550px;
+    height: 57px;
+    outline: none;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px; 
+}
+
+input[type="text"]::placeholder{
+    font-size: 16px;
+    padding: 19px 20px;
+    color: var(--primary-color);
+}
+
+input[type="button"]{
+    padding: 17px 24px;    
+    border-radius: 8px; 
+    background-color: white;
+    border: none;
+
+}
+
+input[value="Submit"]{
+    font-size: 19px;
+    color: var(--primary-color);  
+    font-weight: 600;
 }
