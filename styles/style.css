@@ -30,6 +30,14 @@ p{
     background-color: white;
 }
 
+.cards a, .technology a{
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
 
 
 
@@ -173,12 +181,34 @@ iframe{
     background: rgba(255, 223, 0, 0.05);
 }
 
-.cards a{
-    color: var(--primary-color);
-    font-size: 16px;
-    font-weight: 600;
-}
-
 .cards h4{
     line-height: 0px;
+}
+
+.technology{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px 50px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    border-radius: 16px;
+}
+
+.technology h4{
+    line-height: 0px;
+}
+
+.technology img{
+    width: 100%;
+}
+
+.width-20{
+    width: 10%;
+}
+
+.width-80{
+    width: 80%;
 }
