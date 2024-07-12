@@ -18,11 +18,8 @@ body{
   color: var(--primary-color);
 }
 
-nav{
+nav, #why-webd{
     margin: 0px 150px;
 }
 
 
-.highlight{
-    color: tomato;
-}
