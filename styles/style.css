@@ -129,7 +129,7 @@ h1{
 
 /* start design of My Inspiration Section */
 
-#my-inspiration .heading-desc{
+#my-inspiration, .heading-desc{
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -143,4 +143,42 @@ h1{
 
 iframe{
     border-radius: 16px;
+}
+
+
+/* styles of my current target */
+#my-current-target .heading-desc{
+    margin: 150px 0 40px 0;
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+}
+
+.card-1, .card-2, .card-3{
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+.card-1{
+    background: rgba(255, 76, 30, 0.05);
+}
+.card-2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-3{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.cards a{
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cards h4{
+    line-height: 0px;
 }

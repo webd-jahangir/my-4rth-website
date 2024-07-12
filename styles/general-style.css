@@ -18,7 +18,7 @@ body{
   color: var(--primary-color);
 }
 
-nav, #why-webd, #my-inspiration{
+nav, #why-webd, #my-inspiration, #my-current-target{
     margin: 0px 150px;
 }
 
