@@ -31,6 +31,8 @@ p{
 }
 
 
+
+
 /* Styles Of hero section */
 nav, .banner-area{
     max-width: 1440px;
@@ -124,3 +126,21 @@ h1{
 }
 
   
+
+/* start design of My Inspiration Section */
+
+#my-inspiration .heading-desc{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.video{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+iframe{
+    border-radius: 16px;
+}
